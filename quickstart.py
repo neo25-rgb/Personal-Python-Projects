@@ -44,7 +44,7 @@ def main():
     events_result = (
         service.events()
         .list(
-            calendarId='primary',
+            calendarId='primary',#improved
             timeMin=now,
             maxResults=10,
             singleEvents=True,
