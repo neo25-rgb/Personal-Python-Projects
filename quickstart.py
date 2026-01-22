@@ -9,7 +9,7 @@ from googleapiclient.errors import HttpError
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"]
-client_id="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"
+#client_id="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"
 
 
 def main():
@@ -44,10 +44,11 @@ def main():
     events_result = (
         service.events()
         .list(
-            calendarId=client_id,
+            calendarId='primary',
             timeMin=now,
             maxResults=10,
             singleEvents=True,
+
             orderBy="startTime",
         )
         .execute()
