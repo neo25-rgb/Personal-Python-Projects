@@ -60,3 +60,12 @@ print(result4)
 #modulus
 result5=20%3
 print(result5)
+
+#string formatting= format()
+name3= "Neo"
+age2= 24
+message= "My name is {} and I'm {} years old".format(name3, age2)
+print(message)
+#string formatting = fstrings
+message1=f"My name is {name3} and I'm {age2} years old"
+print(message1)
