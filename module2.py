@@ -36,3 +36,27 @@ print(float_variable)
 is_raining=False
 is_raining=True
 print(is_raining)
+
+# arithmetic operation
+
+
+
+
+#addition
+result= 5 + 3
+print(result)
+#subtraction
+result1= 10-4
+print(result1)
+#multiplication
+result2= 2*6
+print(result2)
+#division
+result3=20/4
+print(result3)
+#integer division
+result4=20//7
+print(result4)
+#modulus
+result5=20%3
+print(result5)
