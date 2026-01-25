@@ -1,0 +1,38 @@
+#Variables
+
+full_name= "Neo Phukubye"
+print(full_name)
+
+first_name= "Neo"
+surname="Phukubye"
+
+full_name= "Neo Mashigo"
+print(full_name)
+
+#variables for strings,booleans and numbers
+
+#assigning a string variable
+string1="This is a string in double quotation marks"
+string2='This is a string in single quotation marks'
+string3="""We can have
+multi line string in three
+quotation marks!"""
+string4='''we can also have
+a multi line string in three 
+single quotation mark!'''
+
+print(string1)
+print(string2)
+print(string3)
+print(string4)
+
+#assigning a number variable
+integer_variable= 1
+float_variable= 1.0
+print(integer_variable)
+print(float_variable)
+
+#assigning a boolean variable
+is_raining=False
+is_raining=True
+print(is_raining)
