@@ -1,0 +1,59 @@
+==============================
+    THEORY_TEST_ANSWERS
+===============================
+
+Python, Git & Linux — Theory Test
+Answer Sheet
+
+---
+
+## PYTHON
+
+1. Lists are mutable (can be changed), while tuples are immutable (cannot be changed).
+
+2. A dictionary stores data as key–value pairs, while a list stores ordered elements accessed by index.
+
+3. `self` refers to the current instance of a class and is used to access instance attributes and methods.
+
+4. A class attribute is shared by all instances of a class, while an instance attribute belongs to a specific object.
+
+5. The constructor initializes an object’s data when an instance of the class is created.
+
+6. Encapsulation is the practice of hiding internal implementation details of a class and exposing only what is necessary, usually through naming conventions or methods.
+
+7. Protected attributes use a single underscore (`_attribute`) and are meant for internal use, while private attributes use double underscores (`__attribute`) and are name-mangled.
+
+8. Functions being first-class objects means they can be assigned to variables, passed as arguments, and returned from other functions.
+
+9. `==` compares values for equality, while `is` checks whether both variables reference the same object in memory.
+
+10. The same mutable object is reused across function calls, which can cause unexpected behavior.
+
+11. Recursion is when a function calls itself. It must have a base case and a recursive case.
+
+12. `@staticmethod` defines a method that belongs to a class but does not access instance or class data.
+
+---
+
+## GIT
+
+13. `git fetch` downloads changes from a remote repository without merging them, while `git pull` downloads and merges them.
+
+14. A branch is an independent line of development that allows developers to work on features without affecting the main codebase.
+
+15. A merge conflict occurs when Git cannot automatically combine changes from different branches.
+
+16. `git stash` temporarily saves uncommitted changes so you can work on something else and return later.
+
+---
+
+## LINUX / CLI
+
+17. `pwd` prints the current working directory.
+
+18. `cp` copies files or directories, while `mv` moves or renames them.
+
+19. `sudo` allows a command to run with superuser privileges and should be used carefully to avoid damaging the system.
+
+20. Command: `ls -a`
+    Hidden files start with a dot (`.`) and are usually configuration or system files.
