@@ -69,3 +69,55 @@ print(message)
 #string formatting = fstrings
 message1=f"My name is {name3} and I'm {age2} years old"
 print(message1)
+
+#creating a list
+
+my_list= ["apple", "plum", "banana"]
+print(my_list)
+
+numbers= [ 10, 5, 2]
+
+ages= [50, 25, 15]
+print(ages)
+
+mixed_list= ["Neo", 24, "Phukubye", 50, "Mashigo", 53 ]
+print(mixed_list)
+
+#print each element to the console
+print(my_list[0])
+
+#add, replace and remove items in list
+
+#add items with append,insert and extend
+fruits= ["apple", "plum", "cherry"]
+fruits.append('orange')
+print(fruits)
+
+fruits.insert(1,"banana")
+print(fruits)
+
+fruits.extend(["banana","cherry","pineapple"])
+print(fruits)
+
+#remove items from a list with clear,remove,pop
+fruits.pop()
+print(fruits)
+
+fruits.remove("banana")
+print(fruits)
+
+# fruits.clear()
+# print(fruits)
+
+#replacing items by using indexing
+print(fruits)
+fruits[2]="pear"
+print(fruits)
+
+#we can use list slicing to get sublists
+fruits_sublist=fruits[0:3]
+print(fruits_sublist)
+
+#we can also use an optional step argument
+fruits_sublist_step=fruits[0::2]
+print(fruits_sublist_step)
