@@ -1,0 +1,64 @@
+==============================
+    THEORY_TEST
+=======================
+
+Python, Git & Linux — Theory Test
+Total Questions: 20
+
+Instructions:
+Answer concisely but clearly. Where relevant, include short explanations.
+No coding required.
+
+---
+
+## PYTHON
+
+1. What is the difference between a list and a tuple in Python?
+
+2. Explain what a dictionary is and how it differs from a list.
+
+3. What does the `self` keyword represent inside a class?
+
+4. What is the difference between a class attribute and an instance attribute?
+
+5. Explain the purpose of a constructor (`__init__`) in a Python class.
+
+6. What is encapsulation in Python OOP, and how is it commonly implemented?
+
+7. What is the difference between a protected attribute and a private attribute?
+
+8. What does it mean that functions are first-class objects in Python?
+
+9. Explain the difference between `==` and `is`.
+
+10. What happens when you use a mutable object (like a list) as a default function argument?
+
+11. What is recursion, and what are the two key components every recursive function must have?
+
+12. What does `@staticmethod` mean, and when would you use it?
+
+---
+
+## GIT
+
+13. What is the difference between `git pull` and `git fetch`?
+
+14. Explain what a branch is in Git and why branches are useful.
+
+15. What is a merge conflict, and when does it occur?
+
+16. What does `git stash` do, and when would you use it?
+
+---
+
+## LINUX / CLI
+
+17. What does the `pwd` command do?
+
+18. Explain the difference between `cp` and `mv`.
+
+19. What does `sudo` mean, and why should it be used carefully?
+
+20. What command would you use to:
+    a) list all files including hidden ones
+    b) explain briefly what hidden files are in Linux
