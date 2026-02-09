@@ -24,6 +24,3 @@ function moveButton(button) {
     button.style.top = Math.random() * window.innerHeight + "px";
     button.style.left = Math.random() * window.innerWidth + "px";
 }
-function playMusic() {
-    document.getElementById("bgMusic").play();
-}
