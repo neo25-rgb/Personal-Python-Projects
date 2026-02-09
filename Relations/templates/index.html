@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Love Story 💕</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="card">
+    <h1>My Favorite Person 😍Onkarabetse Ndlhovu💖</h1>
+
+    <p>
+        Every moment with you feels like magic.
+        Thank you for loving me the way you do.
+    </p>
+
+    <h2>Will you be my Valentine? 💌</h2>
+
+    <div class="buttons">
+        <button onclick="playMusic()">Play Our Song 🎵</button>
+
+<audio id="bgMusic" loop>
+    <source src="{{ url_for('static', filename='music/oursong.mp3') }}" type="audio/mpeg">
+</audio>
+
+        <button class="yes" onclick="sendAnswer('YES')">YES 💖</button>
+        <button class="no" onclick="moveButton(this)">NO 😈</button>
+    </div>
+
+    <div id="celebration" class="hidden">
+        You just made me the happiest girlfriend ever 😭💖✨
+        <h2>Our Memories 🎥</h2>
+
+<video width="100%" controls>
+    <source src="{{ url_for('static', filename='videos/ourvideo.mp4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="/static/script.js"></script>
+
+</body>
+</html>
